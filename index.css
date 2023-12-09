@@ -1,0 +1,134 @@
+* {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+
+.walls {
+     width: 100%;
+     height: 100vh;
+     background-color: #F3F4F6;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+     .navbar {
+          width: 100%;
+          height: 60px;
+          background-color: #204ECF;
+     }
+}
+
+.wall {
+     width: 85%;
+     line-height: 15vh;
+     /* border: 1px solid red; */
+     margin: auto;
+     display: flex;
+     justify-content: space-around;
+     flex-direction: column;
+     align-items: center;
+     /* padding: 40px; */
+     gap: 20px;
+     /* gap: 30px; */
+
+     .Key {
+          max-width: 500px;
+          width: 100%;
+          height: auto;
+          /* border: 1px solid red; */
+          /* position: absolute; */
+
+          .keys {
+               font-size: 35px;
+               font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+               text-align: center;
+          }
+     }
+
+     .number {
+          max-width: 200px;
+          width: 100%;
+          height: auto;
+          /* border: 1px solid red; */
+          /* margin-top: 50px; */
+
+          .num {
+               font-size: 150px;
+               text-align: center;
+               font-family: Arial, Helvetica, sans-serif;
+          }
+     }
+
+     .result {
+
+          width: 100%;
+          line-height: 50px;
+          /* border: 1px solid orange; */
+          
+          display: flex;
+          justify-content: center;
+
+
+          .info {
+               width: 600px;
+               height: 200px;
+               background-color: #ca1616;
+
+
+               .info_text {
+                    font-size: 30px;
+                    text-align: center;
+               }
+          }
+
+          .boxs {
+               width: 100%;
+               height: auto;
+               /* border: 1px solid green; */
+               display: flex;
+               align-content: center;
+               justify-content: center;
+               flex-wrap: wrap;
+               gap: 20px;
+
+               .box {
+                    width: 350px;
+                    height: 300px;
+                    background-color: #fff;
+                    /* border: 1px solid blue; */
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .nav {
+                         width: 100%;
+                         height: 40px;
+                         background-color: #204ECF;
+                         display: flex;
+                         /* align-items: center; */
+                         justify-content: center;
+
+                         .even {
+                              width: 100%;
+                              height: 100%;
+                              color: #fff;
+                              font-family: Arial, Helvetica, sans-serif;
+                              text-align: center;
+                              margin-top: 8px;
+                         }
+
+                    }
+
+                    .numRes {
+                         font-size: 50px;
+                         text-align: center;
+                         line-height: 200px;
+                    }
+               }
+
+          }
+
+     }
+
+}
